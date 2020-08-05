@@ -12,3 +12,77 @@ body {
     color: #202124;
 }
 
+/* Styles for the form tag */
+form {
+  background: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 24px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+/* Styles for the input area for phone number */
+input[type="tel"] {
+  width: 25%;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 20px;
+  transition: 0.5s;
+  border-style: none;
+  border-bottom: 1px solid #dadce0;
+}
+
+input[type=tel]:focus {
+  outline: none;
+  border-bottom: 2px solid purple;
+}
+
+/* Styles for the hobbies input area */
+input[type=text] {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .2px;
+  line-height: 20px;
+  transition: 0.5s;
+  border-style: none;
+  border-bottom: 1px solid #dadce0;
+}
+
+input[type=text]:focus {
+  outline: none;
+  border-bottom: 2px solid purple;
+  transition: 0.5s;
+}
+
+/* Styles for the labels tags */
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 100%;
+}
+
+/* Styles for applied classes */
+.phone {
+  margin-bottom: 16px;
+}
+
+.hobbies {
+  margin-bottom: 16px;
+}
+
+.phone-number {
+  position: relative;
+  vertical-align: top;
+}
+
+.hobbies-list {
+  height: 24px;
+  position: relative;
+  vertical-align: top;
+}
