@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeJapa Survey Form</title>
-   
+
     <!-- Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    
+
     <!-- INCASE OF ABSENCE OF DATA, LOCAL BOOSTRAP LINK -->
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
     <!-- Customize CSS -->
     <link rel="stylesheet" href="./css/styles_5_10.css">
+
+
+    <!-- Google Fonts used in original form -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    
-    
+
+  <!-- Phone number section -->
+  <form action="index.html" method="post">
+    <div class="phone">
+      <label for="phone">Phone number</label>
+    </div>
+    <div class="phone-number">
+      <input type="tel" name="phone" value="" placeholder="Your answer" required pattern="[0-9]">
+    </div>
+  </form>
+
+  <!-- Hobbies Section -->
+  <form action="index.html" method="post">
+    <div class="hobbies">
+      <label>Hobbies? We'd love to know them!</label>
+    </div>
+    <div class="hobbies-list">
+      <input type="text" name="" value="" placeholder="Your answer">
+    </div>
+  </form>
+
+
+
 
 
 
@@ -36,7 +60,7 @@
 
     <!-- INCASE OF ABSENCE OF DATA, LOCAL BOOTSTRAP -->
     <script src="./js/bootstrap.min.js"></script>
-    
+
     <!-- CUSTOMIZE JAVASCRIPT -->
     <script src="./js/script.js"></script>
 </body>
