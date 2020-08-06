@@ -17,16 +17,16 @@ This process here should be able to guide you on how to contribute effectively t
 
 * Fork the repository to generate a copy of your own.
 
-* Clone the repository.
+* Clone your forked repository.
 
    ```
-    git clone https://github.com/kenelight4u/Google_Form_Clone.git
+    git clone https://github.com/your_username/Google_Form_Clone.git
     
    ```
     
-* Make your forked repo the remote upstream (at origin)
+* Make main repo the remote upstream
 ```
-    git remote add origin https://github.com/kenelight4u/Google_Form_Clone.git
+    git remote add upstream https://github.com/kenelight4u/Google_Form_Clone.git
 ```
 * Create a branch FROM develop, ALWAYS CREATE YOUR BRANCH FROM DEVELOP,
 the branch name should at least be meaningful,  **make sure you have one story per branch (one(1) story ===  one(1) branch)** 
@@ -42,7 +42,12 @@ After changes have been made do:
 Consistently pull from the develop branch to avoid not getting your pull request merged and to avoid conflicts.
 This way you can resolve conflicts from your local computer even before pushing always check what branch you are on when making changes
  
-* Make your changes, add them and make your commits
+* Make your changes, add them 
+   ```
+   git add .
+   
+  ```
+and make your commits
 
    ``` 
    git commit -m "your message"
