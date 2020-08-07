@@ -12,3 +12,89 @@ body {
     color: #202124;
 }
 
+
+.last_box{
+  width:600px;
+  height:170px;
+  background: white;
+  border-radius: 8px ;
+  border:1px solid #dadce0;
+  padding:20px;
+  margin:10px auto;
+}
+
+h6{
+  font-weight: 400;
+}
+input{
+  width: 550px;
+  margin-top: 10px;
+  border:none;
+  border-bottom:1px solid #dadce0;
+
+}
+
+.footer{
+  width: 597px;
+  height:200px;
+  display:block;
+  margin:10px auto;
+}
+#Submit{
+  background:#6b00b3;
+  color:white;
+  width: 85px;
+  height: 35px;
+  border:0;
+  border-radius: 4px;
+}
+
+div{
+  /* border: 1px solid black; */
+}
+
+.content{
+  display: flex;
+  align-items: center;
+}
+
+.submit-btn{
+  display: flex;
+  flex-basis: 50%;
+}
+
+.left-item{
+  display: flex;
+  height: 100%;
+  flex-basis: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line{
+  width: 190px;
+  height:10px;
+  background-color:#009933;
+  border-radius: 5px;
+  /* float: right; */
+  /* margin-top:25px; */
+  /* margin-right: 120px; */
+}
+
+.text{
+  margin-right: 13px;
+  margin-top: 14px;
+}
+
+#span1,#span2,#span3{
+  text-decoration: underline;
+}
+footer{
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.google-text{
+  font-weight: 500;
+}
