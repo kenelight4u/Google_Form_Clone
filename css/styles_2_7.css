@@ -10,5 +10,52 @@ body {
     box-sizing: border-box;
     background-color: #ede7f6;
     color: #202124;
+    text-align: auto;
 }
+
+p {
+	line-height: 2;
+
+}
+
+span {
+	color: red;
+
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid #dadce0
+}
+
+.section-two {
+	margin: auto;
+    max-width: 90vw;
+    width: 640px;
+	margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+
+
+}
+
+.section-seven {
+	margin: auto;
+    max-width: 90vw;
+    width: 640px;
+	margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 22px;
+    position: relative;
+}
+
 
