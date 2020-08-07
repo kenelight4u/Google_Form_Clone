@@ -25,22 +25,137 @@
                 <p id="required"> * Required</p>
             </div>
             <div class="main-section">
+
+                <div class="section-two">
+                    <p>What's your name? <span>*</span></p> <br/>
+                    
+                    <input type="text" aria-label="First name" placeholder="Your answer" class="form-control" style="max-width: 60% ;">
+                </div>
+
+                <div class="section-three">
+                    <p>Slack username <span>*</span></p> <br/>
+                    
+                    <input type="text" aria-label="First name" placeholder="Your answer" class="form-control" style="max-width: 60% ;">
+                </div>
                 
+                <div class="section-four">
+                    <p>Have you uploaded your Slack profile picture? <span>*</span></p> <br/> 
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Yes ❤️</label>
+                      </div> <br/>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">No - seriously, head over to Slack and upload it now.. then choose "Yes" 😊</label>
+                      </div>
+                </div>
+
                 <div class="section-five">
                     <p>Phone number</p> <br/>
-                    <input type="phonenumber" name="phoneNumber" placeholder="Your answer" >
+                    <input type="tel" name="phoneNumber" placeholder="Your answer" class="section-five-input" size="">
                 </div>
                 
-                <div class="section-ten">
-                    
+                <div class="section-six">
+                    <p>Choose a learning track <span>*</span></p> <br/> 
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio3" name="customRadio1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio3">Beginner (HTML & CSS)</label>
+                    </div> <br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio4" name="customRadio1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio4">JavaScript</label>
+                    </div><br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio6" name="customRadio1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio6">React</label>
+                    </div>
                 </div>
+
+                <div class="section-seven">
+                    <p>Would you learn at your own pace? <span>*</span></p> 
+                    <p class="small-font">You really want to take your time to learn this your way, maybe for more than three (3) months. This means that you won't follow the timeline in the curriculum.</p> <br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio7" name="customRadio2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio7">Yes, I don't want stress at all.</label>
+                    </div> <br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio8" name="customRadio2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio8">No, I want to feel the rush with other interns.</label>
+                    </div>
+                </div>
+
+                <div class="section-eight">
+                    <p>How many hours can you dedicate to your learning daily? <span>*</span></p> <br/> 
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio9" name="customRadio3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio9">Less than 2 hours</label>
+                    </div> <br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio10" name="customRadio3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio10">Close to 6 hours</label>
+                    </div><br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio11" name="customRadio3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio11">Between 7 and 14 hours</label>
+                    </div>  <br/>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio12" name="customRadio3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio12">14+ hours 🙌🏽 - awesome, but it's not advisable.</label>
+                    </div>  
+                </div>
+
+                <div class="section-nine">
+                    <p>Tell us why you chose to learn frontend development.<span>*</span></p> <br/>
+                    
+                    <input type="text" aria-label="First name" placeholder="Your answer" class="form-control">
+                </div>
+
+                <div class="section-ten">
+                    <p>Apart from money 🤑, what motivates you?</p> <br/>
+                    
+                    <input type="text" aria-label="First name" placeholder="Your answer" class="form-control">
+                </div>
+
+                <div class="section-eleven">
+                    <p>Hobbies? We'd love to know them!</p> <br/>
+                    
+                    <input type="text" aria-label="First name" placeholder="Your answer" class="form-control" style="max-width: 60% ;">
+                </div>
+
+                <div class="section-twelve">
+                    <p>Anything you'd like to tell us?</p>
+                    <p class="small-font">We would love to hear your feedback about the program - areas that you think we can improve. You can even tell us a joke, seriously anything.</p> <br/>
+                    
+                    <input type="text" aria-label="First name" placeholder="Your answer" class="form-control">
+                </div>
+
             </div>
             <div class="footer-section">
-    
+                
+                <div class="content row d-flex mb-3">
+                    <div class="left-item col-sm-6  order-sm-12">
+                        <div class="line">
+                    </div>
+                    <p class="text ml-2 pb-2">Page 1 of 1</p>
+                    </div>
+
+                    <div class="col-sm-6  order-sm-1">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>  
+                </div>
+
+                <p style="font-size: 12px; font-weight: 400;">Never submit passwords through Google Forms.</p>
             </div>
         </form>
         <div class="footer">
-
+            <p class="text-center" style="font-size: 12px; font-weight: 400;">This content is neither created nor endorsed by Google.
+                <a href="#"><span>Report Abuse </span>  - </a> 
+                <a href="#"><span>Terms of Service</span>  - </a>
+                <a href="#"> <span>Privacy Policy</span>  </a>
+            </p>
+        </div>
+        <div class="mb-4">
+            <h1 class="text-center foot1"> <span style="color: black; opacity: 0.26; font-weight: 500;">Google</span> <span style="color: black; opacity: 0.2;">Forms</span> </h1>
         </div>
     </div>
     
