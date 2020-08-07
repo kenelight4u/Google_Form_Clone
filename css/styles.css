@@ -102,16 +102,11 @@ span {
 }
 .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
-    border-color: rgb(103, 58, 183);
-    background-color: rgb(103, 58, 183);
-  }
-  .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-    border-color: rgb(103, 58, 183);
-  }
-  .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-    background-color:  rgb(103, 58, 183);
-  }
-
+    border-color: rgb(103, 58, 183) !important;
+    background-color: rgb(103, 58, 183) !important;
+    box-shadow: 0 0 0 0.05rem rgb(103, 58, 183);
+}
+ 
 .footer {
     margin: 16px 0;
     padding: 0 16px;
@@ -139,7 +134,7 @@ a:hover {
     border-color: rgb(103, 58, 183);
 }
 .btn-primary:hover {
-    background-color: rgb(103, 58, 210);
+    background-color: rgb(103, 58, 200);
 }
   
 .left-item{
