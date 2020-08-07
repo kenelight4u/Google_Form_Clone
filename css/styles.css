@@ -16,7 +16,7 @@ body {
     max-width: 90vw;
     width: 640px;
 }
-.header-section, .section-five {
+.header-section, .section-two, .section-three, .section-four, .section-five, .section-six,.section-seven, .section-eight, .section-nine, .section-ten, .section-eleven, .section-twelve {
     margin-top: 12px;
     background-color: #fff;
     border: 1px solid #dadce0;
@@ -53,12 +53,15 @@ p {
     letter-spacing: .2px;
     line-height: 20px;
     color: #202124;
+    margin: 0px;
     margin-top: 12px;
 }
 .header-section p {
     font-size: 14px;
 }
-
+.small-font {
+    font-size: 12px;
+}
 .header-section p#required {
     color: #d93025;
 }
@@ -70,4 +73,86 @@ input {
     background-color: transparent;
     border: none;
     height: 24px;
+    border-bottom: 1px solid #dadce0;
+    padding-bottom: 8px;
 }
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(103, 58, 183);
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dadce0;
+    padding-bottom: 8px;
+    border-radius: 0;
+    padding-left: 0;
+}
+.form-control:focus {
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid rgb(103, 58, 183);
+}
+span {
+    color: red;
+}
+.custom-control-label {
+    font-size: 14px !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: rgb(103, 58, 183);
+    background-color: rgb(103, 58, 183);
+  }
+  .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    border-color: rgb(103, 58, 183);
+  }
+  .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+    background-color:  rgb(103, 58, 183);
+  }
+
+.footer {
+    margin: 16px 0;
+    padding: 0 16px;
+}
+a span {
+    color: rgba(0, 0, 0, 0.66);
+    text-decoration: underline;
+}
+a:hover {
+    color: rgba(0, 0, 0, 0.66);
+}
+.foot1 {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22.1px;
+}
+.btn {
+    font-size: 14px !important;
+    letter-spacing: .25px;
+    font-weight: 500;
+    padding: 7px 25px;
+}
+.btn-primary {
+    background-color: rgb(103, 58, 183);
+    border-color: rgb(103, 58, 183);
+}
+.btn-primary:hover {
+    background-color: rgb(103, 58, 210);
+}
+  
+.left-item{
+display: flex;
+height: 100%;
+align-items: center;
+}
+  
+.line{
+width: 190px;
+height:10px;
+background-color:#009933;
+border-radius: 5px;
+}
+  
+  
