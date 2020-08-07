@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-* {
+*,
+:before,
+:after {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,5 +13,49 @@ body {
     box-sizing: border-box;
     background-color: #ede7f6;
     color: #202124;
+
 }
 
+span {
+    color: #d93025;
+}
+
+.container_4_9 {
+    margin: 0 auto;
+    margin-bottom: 12px;
+    max-width: 50%;
+    background: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+}
+
+.content_item {
+    padding: 24px;
+    margin-bottom: 10px;
+}
+
+.container_p {
+    font-size: 1rem;
+    padding-bottom: 12px;
+}
+
+.radio_respond {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.respond {
+    font-size: .875rem;
+}
+
+/* styling section 9 */
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dadce0;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+
+}
