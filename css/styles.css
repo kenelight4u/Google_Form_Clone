@@ -4,18 +4,22 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* BODY */
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     background-color: #ede7f6;
     color: #202124;
 }
+
+/* CONTAINER */
 .main-wrapper {
     margin: auto;
     max-width: 90vw;
     width: 640px;
 }
+
+/* SECTIONS */
 .header-section, .section-two, .section-three, .section-four, .section-five, .section-six,.section-seven, .section-eight, .section-nine, .section-ten, .section-eleven, .section-twelve {
     margin-top: 12px;
     background-color: #fff;
@@ -26,6 +30,8 @@ body {
     padding-top: 22px;
     position: relative;
 }
+
+/* TOP HEADER INSIDE THE HEADER SECTION */
 .header-first {
     background-color: rgb(103, 58, 183);
     color: rgba(255, 255, 255, 1);
@@ -37,6 +43,8 @@ body {
     top: -1px;
     width: calc(100% + 2px);
 }
+
+/* FONTS SPECIFICATIONS */
 h1 {
     font-family: 'Google Sans',Roboto,Arial,sans-serif;
     font-size: 32px;
@@ -65,10 +73,11 @@ p {
 .header-section p#required {
     color: #d93025;
 }
-
 .section-five p{
     font-size: 16px;
 }
+
+/* FORM SECTIONS */
 input {
     background-color: transparent;
     border: none;
@@ -107,6 +116,7 @@ span {
     box-shadow: 0 0 0 0.05rem rgb(103, 58, 183);
 }
  
+/* FOOTER SECTION */
 .footer {
     margin: 16px 0;
     padding: 0 16px;
