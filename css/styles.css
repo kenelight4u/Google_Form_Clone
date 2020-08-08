@@ -20,7 +20,9 @@ body {
 }
 
 /* SECTIONS */
-.header-section, .section-two, .section-three, .section-four, .section-five, .section-six,.section-seven, .section-eight, .section-nine, .section-ten, .section-eleven, .section-twelve {
+.header-section, .section-two, .section-three, .section-four, .section-five, 
+.section-six,.section-seven, .section-eight, .section-nine, .section-ten, 
+.section-eleven, .section-twelve {
     margin-top: 12px;
     background-color: #fff;
     border: 1px solid #dadce0;
