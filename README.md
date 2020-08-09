@@ -1,6 +1,38 @@
 # Google_Form_Clone
 WeJapa Intership - Cloning of a Google Form: https://docs.google.com/forms/d/e/1FAIpQLSewsPhtmO1AfY_7G9Pr6gR-ABi1D9XV4DG4_iJswgQ-vzlh5w/viewform
 
+1. Instructions to install and configure prerequisites or dependencies, if any.
+Answer: None, it's just a page.
+
+2. Assumptions you have made -- it is good to explain your thought process and the assumptions you have made
+answer: None, we cloned a site. divided it into sections so that all can participate.
+
+3. Requirements that you have not covered in your submission if any.
+Anwer: The validation aspect of our Form, which we have not covered.
+
+4. Instructions to configure and prepare the source code to build and run properly.
+Answer: None
+
+5. Issues you have faced while completing the assignment if any.
+Answer: Most of us are new to Git, so couldn't make a PR but sent directly to me.
+
+6. Constructive feedback for improving the assignment.
+Answer: None for Now
+
+7. Contributors
+Answer:  @kenelight4u -	kenelight4u@yahoo.com
+         @web_development - gideon.sh90@gmail.com
+         @Ady - iroegbusophia3@gmail.com
+         @Habeeb - olaidekareem43@yahoo.com
+         @HarunBadG - harunaibrahimoye@gmail.com
+         @Samuel Oyekoya - samueloyekoya12@gmail.com
+         @Pearlpee -	charlespreshy@gmail.com
+         @judith - judion200@gmail.com
+         @jones -	oabrikujones@yahoo.com
+
+
+
+
 # Google Form Clone
 
 Please before you push your codes to the repository make sure you pull from the repository, so the changes that have been made can be reflected on your local machine, for us to avoid merge conflicts use the git command line
